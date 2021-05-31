@@ -1,0 +1,14 @@
+.image {
+  height: 20px;
+  border-radius: 3px;
+}
+
+.flex-box-inside {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-box-inside > div {
+  width: 16%;
+  margin-right: 5px;
+}

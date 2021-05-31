@@ -1,0 +1,63 @@
+.flex-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-box > div {
+  width: 50%;
+}
+
+.flex-box-inside {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-box-inside > div {
+  width: 16%;
+  margin-right: 5px;
+}
+
+.card {
+  background-color: coral;
+  font-size: medium;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.span {
+  margin-right: 5px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: #39509b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+@media (max-width: 600px) {
+  .flex-box {
+    display: block;
+  }
+
+  .flex-box > div {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

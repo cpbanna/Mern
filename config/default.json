@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://ChandraPal:rajatuli@cluster0.wf5ax.mongodb.net/crictracker?retryWrites=true&w=majority"
+}

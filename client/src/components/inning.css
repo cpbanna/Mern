@@ -1,0 +1,39 @@
+.true {
+  background-color: #904caf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.false {
+  background-color: #4caf89;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.mat {
+  background-color: #9b5a2e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 0 35% 0 35%;
+}
